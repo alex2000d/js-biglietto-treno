@@ -15,8 +15,8 @@ else if (eta > 65) {
 
 if (perc_sconto != 0){
      let sconto = prezzo_biglietto * perc_sconto / 100;
-     prezzo = prezzo_biglietto - sconto;
+     prezzo_finale = prezzo_biglietto - sconto.toFixed(2);
 }
 
 
-console.log(prezzo);
+console.log(prezzo_finale);
