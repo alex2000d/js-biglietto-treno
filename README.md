@@ -20,4 +20,7 @@ problema/soluzione
 6.1- : altrimenti non applico nessuno sconto
 7-? se il passeggero è over 65 applico uno sconto del 40%
 7.1- : altrimenti non applico nessuno sconto
-8-calcolo il prezzo finale
+8-dichiaro una variabile per il prezzo scontato
+9-assegno alla variabile il calcolo da fare
+10-dichiaro una variabile per il prezzo finale
+11-assegno alla variabile il calcolo da fare per il prezzo finale
