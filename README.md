@@ -8,3 +8,16 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 Ricordatevi di fare il file README.md in cui scomponete il problema in sotto problemi
 Numero minimo di push: 6
+
+problema/soluzione
+
+1-dichiaro una variabile per il numero di chilometri che vuole percorrere
+2-assegno alla variabile il valore recuperato tramite una promt
+3-dichiaro una variabile per l'età del passeggero
+4-assegno alla variabile il valore recuperato tramite una seconda promt
+5-calcolo il prezzo del biglietto in base ai km 
+6-? se il passeggero e minorenne applico uno sconto del 20%
+6.1- : altrimenti non applico nessuno sconto
+7-? se il passeggero è over 65 applico uno sconto del 40%
+7.1- : altrimenti non applico nessuno sconto
+8-calcolo il prezzo finale
