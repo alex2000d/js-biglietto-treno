@@ -3,20 +3,20 @@ let eta = prompt("inserisci la tua eta");
 
 let prezzo_biglietto = 0.21 * km;
  console.log(prezzo_biglietto);
- let perc_sconto = 0;
+  let prezzo_finale = prezzo_biglietto;
 
 
 if (eta < 18) {
-    perc_sconto = 20;
+    
+    let sconto = prezzo_biglietto * 0.2;
+    prezzo_finale = prezzo_finale - sconto;
 }
 else if (eta > 65) {
-    perc_sconto = 40;
-}
-
-if (perc_sconto != 0){
-     let sconto = prezzo_biglietto * perc_sconto / 100;
-     prezzo_finale = prezzo_biglietto - sconto.toFixed(2);
+    
+    let sconto = prezzo_biglietto * 0.4;
+    prezzo_finale = prezzo_finale - sconto;
 }
 
 
-console.log(prezzo_finale);
+let prezzo = prezzo_finale.toFixed(2);
+console.log(prezzo);
